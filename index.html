@@ -185,8 +185,9 @@
 
                     cell.innerHTML = `
                         <span class="original-value">Measuring cup: ${cellData}</span>
-                        <span class="random-value">Inoc: ${randomValue.toFixed(1)}</span>
                         <span class="sum-value">${(cellData + randomValue).toFixed(1)}</span>
+                        <span class="random-value">Inoc: ${randomValue.toFixed(1)}</span>
+                        
                     `;
 
                     row.appendChild(cell);
